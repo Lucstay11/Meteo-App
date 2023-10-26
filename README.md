@@ -3,6 +3,7 @@
   <img height="600" src="assets/demo1.png">
    <img height="600" src="assets/demo2.png">
 </p>
+
 **`First install package`**
 
 ```
@@ -25,5 +26,4 @@ $ yarn ios
 $ yarn web
 ```
 
-<i align="center">Explore <b>WiFi</b> around the world in real time</i>
-React native Meteo App
+<i align="center">Add your <b>API KEY</b> from https://openweathermap.org/ in <b>api/api.js</b></i>
