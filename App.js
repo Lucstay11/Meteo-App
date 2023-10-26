@@ -39,7 +39,7 @@ export default function App() {
         setLoading(false)
 
         let temps = data.list[0].weather[0].main
-
+        let hours = new Date().getHours()
         setbackColor(WHEATHER_BACKGROUND[temps])
         if(hours>18 && hours<23){setbackColor(WHEATHER_BACKGROUND["soir"])}
         if(hours>23 || hours<6){setbackColor("black")}
