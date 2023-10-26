@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    height:"65%",
+    height:"75%",
     paddingTop: Platform.OS==="android" ? StatusBar.currentHeight:0
   },
   imgmeteocity:{
