@@ -1,5 +1,6 @@
 export const cityPrevision = async (lat,long) =>{
-	const TOKEN = "0ce0e533d4fa99e7121f6c5af857c68e"
+    //ADD HERE YOUR TOKEN API FROM OPEN WHEATHER https://openweathermap.org/
+    const TOKEN = ""
     const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=${TOKEN}&lang=fr&units=metric`;
     const options = {
 	method: 'GET',
